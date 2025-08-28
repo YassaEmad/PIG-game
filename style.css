@@ -209,8 +209,8 @@ main {
 
 @media (max-width: 768px) {
   .dice {
-    width: 12rem;
-    height: 8%;
+  width: 10rem;
+    height: 6%;
   }
 }
 /* ================================================================= */
@@ -226,6 +226,7 @@ main {
 .hidden {
   display: none;
 }
+
 
 
 
