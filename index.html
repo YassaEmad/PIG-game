@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number</title>
+    <!-- start normalize css -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- end normalize css -->
+    <!-- start style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- end style css -->
+  </head>
+  <body>
+    <!-- start main -->
+    <main>
+      <!-- start sec-player_0 -->
+      <section class="player player_0 active">
+        <h2 class="name" id="name_0">PLAYER 1</h2>
+        <p class="score" id="score_0">43</p>
+        <div class="current_score">
+          <p class="current_label">Current</p>
+          <p class="current-score" id="current_0">0</p>
+        </div>
+      </section>
+      <!-- end sec-player_0-->
+      <!-- start sec-player_1 -->
+      <section class="player player_1">
+        <h2 class="name" id="name_1">PLAYER 2</h2>
+        <p class="score" id="score_1">23</p>
+        <div class="current_score">
+          <p class="current_label">Current</p>
+          <p class="current-score" id="current_1">0</p>
+        </div>
+      </section>
+      <!-- end sec-player_1-->
+    </main>
+    <!-- end main-->
+    <div class="mid">
+      <button class="btn new">🔄 New game</button>
+      <div class="bottom">
+        <button class="btn roll">🎲 Roll dice</button>
+        <button class="btn hold">📥 Hold</button>
+      </div>
+    </div>
+    <div class="imgo">
+      <img src="dice-1.png" alt="dice" class="dice" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
