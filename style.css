@@ -76,13 +76,13 @@ main {
     padding: 2rem;
     gap: 1rem;
   }
-  .player_1 {
+/*   .player_1 {
     height: 40%;
     margin-top: 7rem;
   }
   .player_0 {
     height: 60%;
-  }
+  } */
 }
 /* ================================================================= */
 .name {
@@ -226,6 +226,7 @@ main {
 .hidden {
   display: none;
 }
+
 
 
 
