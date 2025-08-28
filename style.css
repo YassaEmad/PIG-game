@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  height: 100vh;
+  height: 100dvh;
   color: var(--color_text);
   background-image: linear-gradient(
     to top left,
@@ -147,7 +147,7 @@ main {
 }
 @media (max-width: 768px) {
   .mid {
-    height: 275vh;
+    height: 275dvh;
   }
 }
 /* ================================================================= */
@@ -226,6 +226,7 @@ main {
 .hidden {
   display: none;
 }
+
 
 
 
